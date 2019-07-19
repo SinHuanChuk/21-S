@@ -1,0 +1,244 @@
+.section17 {
+    width: 100%;
+    margin: 0 auto 50px;
+}
+
+.section17__wrap-block {
+    width: 380px;
+    margin: 0 auto;
+}
+
+.section17__title {
+    width: 275px;
+    margin: 0 auto 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'Acrom';
+    font-weight: 800;
+    color: white;
+    background-color: black;
+}
+
+.section17__text {
+    width: 210px;
+    margin-left: 110px;
+    font-family: 'Acrom';
+    font-weight: 700;
+    line-height: 1.3;
+    position: relative;
+}
+
+.section17__text::before {
+    display: block;
+    content: '';
+    width: 20px;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    top: 7px;
+    left: -40px;
+}
+
+.section17__list {
+    margin: 40px 0 30px 0;
+}
+
+.section17__item {
+    width: 245px;
+    padding-left: 10px;
+    margin: 0 auto 30px;
+    position: relative;
+}
+
+.section17__item:first-child {
+    list-style-image: url('../images/01__section17--480px.png');
+}
+
+.section17__item:last-child {
+    list-style-image: url('../images/02__section17--480px.png ');
+    margin-bottom: 0;
+}
+
+.section17__item::before {
+    display: block;
+    content: '';
+    background-color: #16ebfe;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 25px;
+    left: -20px;
+}
+
+.section17__item--title {
+    font-family: 'Acrom';
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 13.5px;
+    padding-bottom: 15px;
+    line-height: 1.4;
+}
+
+.section17__item--text {
+    font-family: 'Acrom';
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 12px;
+}
+
+.section17__span--color {
+    background-color: black;
+    color: white;
+}
+
+.section17__arcticle {
+    width: 370px;
+    display: block;
+    margin: 0 auto;
+    padding: 65px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.3); 
+}
+
+.section17__form--title {
+    color: #a3a3a3;
+    font-size: 10px;
+    font-family: 'Acrom';
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.section17__form--input {
+    border: none;
+    border-bottom: 1px solid #eeeeee;
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+}
+
+.section17__form--input::placeholder {
+    font-family: 'Acrom';
+    font-weight: 700;
+    font-size: 11px;
+    color: black;
+}
+
+.section17__input--submit {
+    width: 175px;
+    height: 35px;
+    background-color: #ff6b08;
+    border: none;
+    font-family: 'Acrom';
+    font-weight: 800;
+    color: white;
+    font-size: 9px;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+
+@media all and (min-width: 768px) {
+    .section17 {
+        margin: 0 auto 70px;
+    }
+
+    .section17__cover {
+        width: 240px;
+    }
+
+    .section17__wrap-block {
+        display: flex;
+        justify-content: space-between;
+        width: 640px;
+    }
+
+    .section17__title {
+        width: 240px;
+        font-size: 27px;
+        line-height: 1.3;
+        text-align: left;
+        margin-bottom: 15px;
+    }
+
+    .section17__text {
+        margin-left: 60px;
+        width: 135px;
+        font-size: 10px;
+    }
+
+    .section17__text::before {
+        width: 30px;
+        height: 5px;
+        top: 6px;
+        left: -55px;
+    }
+
+    .section17__list {
+        margin: 35px 0 0 15px;
+    }
+
+    .section17__item {
+        width: 195px;
+        padding-left: 10px;
+        margin: 0 0 0 15px;
+    }
+    
+    .section17__item:first-child {
+        list-style-image: url('../images/01__section17--768px.png');
+        margin-bottom: 20px;
+    }
+
+    .section17__item:last-child {
+        list-style-image: url('../images/02__section17--768px.png');
+    }
+
+    .section17__item::before {
+        width: 7px;
+        height: 7px;
+        left: -15px;
+    }
+
+    .section17__item--title {
+        font-size: 9px;
+    }
+
+    .section17__item--text {
+        font-size: 10px;
+    }
+
+    .section17__arcticle {
+        margin: 0;
+        width: 310px;
+        padding: 55px;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .section17 {
+        margin: 0 auto 90px;
+    }
+
+    .section17__cover {
+        width: 270px;
+    }
+
+    .section17__wrap-block {
+        width: 715px;
+    }
+
+    .section17__title {
+        width: 270px;
+        font-size: 30px;
+    }
+
+    .section17__item--title {
+        font-size: 10px;
+    }
+
+    .section17__item--text {
+        font-size: 11px;
+    }
+
+    .section17__arcticle {
+        width: 350px;
+        padding: 75px;
+    }
+}

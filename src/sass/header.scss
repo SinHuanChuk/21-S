@@ -1,0 +1,298 @@
+// header
+
+// background and photo
+@media all and (min-width: 480px) {
+    .header {
+        background: url('../images/back_goit.png') no-repeat center;
+        background-size: cover;
+        width: 100%;
+        height: 615px;
+        margin-bottom: 60px;
+    }
+    
+    .header__wrap {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+    
+    .header__div--link {
+        display: inline-block;
+        padding-left: 15px;
+    }
+    
+    .header__div--link:last-child {
+        padding-left: 0;
+        padding-right: 15px;
+        padding-top: 3px;
+    }
+    
+    // text
+    
+    .header__nav--title {
+        font-family: 'Acrom';
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 30px;
+        text-align: center;
+        width: 250px;
+        margin: 0 auto;
+        line-height: 1.5;
+        padding-bottom: 35px;
+    }
+    
+    .header__nav--text {
+        font-family: 'Acrom';
+        font-weight: 700;
+        color: #fff;
+        font-size: 14px;
+        text-align: center;
+        text-transform: uppercase;
+        width: 400px;
+        margin: 0 auto;
+        padding-bottom: 145px;
+        line-height: 1.5;
+    }
+    
+    .header__nav--text::before {
+        display: block;
+        content: url('../images/left.png');
+        position: absolute;
+        left: 35px;
+    }
+    
+    .header__nav--text::after {
+        display: block;
+        content: url('../images/right.png');
+        position: absolute;
+        right: 20px;
+        top: 224px;
+    }
+    
+    .header__nav--subtext {
+        font-family: 'Acrom';
+        font-weight: 700;
+        color: #fff;
+        font-size: 14px;
+        text-align: left;
+        text-transform: uppercase;
+        width: 400px;
+        margin: 0 auto;
+        line-height: 1.5;
+        padding-bottom: 10px;
+    }
+    
+    .header__nav--nothingtext {
+        font-family: 'Acrom';
+        font-weight: 400;
+        text-align: center;
+        color: #afb0b3;
+        font-size: 14px;
+        width: 400px;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+    
+    .header__nav--button {
+        border: none;
+        background-color: #ff6b08;
+        width: 220px;
+        height: 55px;
+        margin-left: 130px;
+        font-family: 'Acrom';
+        font-weight: 800;
+        font-size: 12px;
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+    .header__item--link {
+        display: none;
+    }
+    
+}
+@media all and (min-width: 768px) {
+    .header {
+        background: url('../images/back_goit-2.png');
+    }
+
+    .header__container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header__inner {
+        margin-left: 60px;
+        width: 320px;
+    }
+
+    .header__inner:last-child {
+        margin-left: 0;
+        margin-right: 60;
+    }
+
+    .header__nav--title {
+        width: 320px;
+        padding-bottom: 100px;
+    }
+
+    .header__nav--text {
+        width: 180px;
+        font-size: 12px;
+        text-align: left;
+        padding-bottom: 60px;
+    }
+
+    .header__nav--text::before {
+        left: 110px;
+    }
+    
+    .header__nav--text::after {
+        right: 425px;
+        top: 340px;
+    }
+
+    .header__nav--subtext {
+        width: 200px;
+    }
+
+    .header__nav--nothingtext {
+        width: 193px;
+        text-align: left;
+        font-size: 12px;
+        padding-bottom: 85px;
+    }
+
+    .header__nav--button {
+        width: 150px;
+        height: 40px;
+        font-size: 9px;
+    }
+
+    .wrap-block {
+        display: flex;
+        justify-content: flex-end;
+        width: 320px;
+        padding-right: 65px;
+    }
+
+    .header__item--link {
+        margin-right: 15px;
+        padding-top: 1px;
+        display: block;
+    }
+
+    .header__item--link:last-child {
+        margin-right: 0;
+        padding-top: 0;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .header {
+        background: url('../images/back_goit-3.png') no-repeat;
+        background-size: cover;
+        height: 550px;
+    }
+
+    .header__container {
+        width: 725px;
+        margin: 0 auto;
+    }
+
+    .header__inner {
+        padding: 0;
+        margin: 0;
+    }
+
+    .header__nav--title {
+        text-align: left;
+        font-size: 39px;
+    }
+
+    .header__nav--button {
+        margin-left: 270px;
+    }
+
+    .header__nav--text::before {
+        left: 245px;
+    }
+
+    .header__nav--text::after {
+        right: 660px;
+        top: 330px;
+    }
+
+    .header__nav--text {
+        width: 260px;
+    }
+
+    .header__nav--subtext {
+        line-height: 2;
+    }
+
+    .header__nav--nothingtext {
+        font-size: 10px;
+        line-height: 2;
+        width: 187px;
+    }
+
+    .wrap-block {
+        padding-right: 0;
+        padding-left: 500px;
+        padding-top: 50px;
+    }
+}
+
+@media all and (min-width: 1440px) {
+
+    .header {
+        background: url('../images/back_goit-3.png') no-repeat center;
+        background-size: cover;
+        height: 550px;
+    }
+        
+    .header__nav--button {
+        margin-left: 390px;
+    }
+
+    .header__nav--text::before {
+        left: 365px;
+    }
+
+    .header__nav--text::after {
+        right: 780px;
+        top: 330px;
+    }
+}
+@media all and (min-width: 1730px) {
+    .header__nav--button {
+        margin-left: 535px;
+    }
+
+    .header__nav--text::before {
+        left: 510px;
+    }
+
+    .header__nav--text::after {
+        right: 925px;
+        top: 325px;
+    }
+}
+
+@media all and (min-width: 1920px) {
+    .header__nav--button {
+        margin-left: 620px;
+    }
+
+    .header__nav--text::before {
+        left: 600px;
+    }
+
+    .header__nav--text::after {
+        right: 1010px;
+        top: 330px;
+    }
+}

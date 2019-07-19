@@ -1,0 +1,241 @@
+.section08 {
+    width: 100%;
+    margin: 0 auto 50px;
+}
+
+.section08__wrap-block {
+    width: 360px;
+    margin: 0 auto;
+}
+
+.section08__wrap1 {
+    background: url('../images/4-stap.png') no-repeat;
+}
+
+.section08__title--color {
+    font-family: 'Acrom';
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 195px;
+    margin: 0 auto;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    padding-left: 4px;
+    margin-bottom: 5px;
+}
+
+.section08__subtitle {
+    font-family: 'Acrom';
+    font-weight: 500;
+    width: 270px;
+    margin: 0 0 0 65px;
+    font-size: 13.5px;
+    line-height: 1.5;
+    padding: 25px 0 50px 0;
+}
+
+.section08__item {
+    width: 285px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.section08__item:first-child {
+    list-style-image: url('../images/01.png');
+}
+
+.section08__item:nth-child(2) {
+    list-style-image: url('../images/02.png');
+}
+
+.section08__item:nth-child(3) {
+    list-style-image: url('../images/03.png');
+}
+
+.section08__item:last-child {
+    list-style-image: url('../images/04.png');
+    margin-bottom: 45px;
+}
+
+.section08__item::before {
+    display: block;
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: #16ebfe;
+    position: absolute;
+    top: 25px;
+    left: -15px;
+}
+
+.section08__item--title {
+    font-family: 'Acrom';
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 13.5px;
+    padding-left: 15px;
+}
+
+.section08__item--text {
+    font-family: 'Acrom';
+    font-weight: 400;
+    font-size: 13.5px;
+    padding: 15px 0 0 15px;
+    line-height: 1.5;
+}
+
+.section08__text {
+    font-family: 'Acrom';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #ff6b08;
+    width: 330px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.section08__text::before {
+    display: block;
+    content: url('../images/line_for_section08-480px.png');
+    position: absolute;
+    top: 10px;
+    left: -25px;
+}
+
+@media all and (min-width: 768px) {
+    .section08 {
+        margin: 0 auto 70px;
+    }
+
+    .section08__wrap-block {
+        width: 630px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .section08__wrap1 {
+        width: 200px;
+    }
+
+    .section08__wrap2 {
+        width: 310px;
+    }
+
+    .section08__title--color {
+        width: 100%;
+        font-size: 27px;
+    }
+    
+    .section08__subtitle {
+        font-weight: 800;
+        width: 140px;
+        margin: 0;
+        font-size: 10px;
+        padding: 25px 0 0 0;
+        margin-left: 70px;
+        position: relative;
+    }
+
+    .section08__subtitle::before {
+        display: block;
+        content: '';
+        width: 30px;
+        height: 4px;
+        background-color: black;
+        position: absolute;
+        top: 30px;
+        left: -70px;
+    }
+
+    .section08__list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .section08__item {
+        width: 105px;
+        margin: 0;
+        margin-bottom: 25px;
+    }
+
+    .section08__item:first-child {
+        list-style-image: url('../images/01-768px.png');
+    }
+    
+    .section08__item:nth-child(2) {
+        list-style-image: url('../images/02-768px.png');
+    }
+    
+    .section08__item:nth-child(3) {
+        list-style-image: url('../images/03-768px.png');
+    }
+    
+    .section08__item:last-child {
+        list-style-image: url('../images/04-768px.png');
+        margin-bottom: 25px;
+    }
+    
+    .section08__item--title {
+        font-size: 10px;
+        padding-left: 15px;
+        line-height: 1.7;
+    }
+    
+    .section08__item--text {
+        font-family: 'Acrom';
+        font-weight: 400;
+        font-size: 9px;
+        padding: 15px 0 0 15px;
+        line-height: 1.5;
+    }
+    
+    .section08__text {
+        font-size: 12px;
+        width: 100%;
+    }
+    
+    .section08__text::before {
+        top: 5px;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .section08 {
+        margin: 0 auto 90px;
+    }
+
+    .section08__wrap-block {
+        width: 715px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .section08__title--color {
+        font-size: 30px;
+    }
+
+    .section08__wrap1 {
+        width: 225px;
+    }
+
+    .section08__wrap2 {
+        width: 350px;
+    }
+
+    .section08__item {
+        width: 120px;
+        margin-bottom: 30px;
+    }
+
+    .section08__item--title {
+        font-size: 11px;
+    }
+
+    .section08__subtitle {
+        font-size: 11px;
+    }
+}

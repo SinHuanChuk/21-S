@@ -1,0 +1,364 @@
+.section06 {
+    width: 100%;
+    margin: 0 auto 50px;
+}
+
+.section06__wrap-block {
+    width: 450px;
+    margin: 0 auto;
+}
+
+.section06__img {
+    margin: 0 auto;
+}
+
+.section06__img--768px1 {
+    display: none;
+}
+
+.section06__img--768px2 {
+    display: none;
+}
+
+.section06__img--1200px1 {
+    display: none;
+}
+
+.section06__img--1200px2 {
+    display: none;
+}
+
+.section06__title {
+    font-family: 'Acrom';
+    font-weight: 800;
+    font-size: 18px;
+    text-transform: uppercase;
+    width: 170px;
+    margin: 0 0 0 75px;
+    line-height: 1.5;
+    padding-bottom: 15px;
+}
+
+.section06__subtitle {
+    font-family: 'Acrom';
+    font-weight: 700;
+    font-size: 13.5px;
+    margin: 0 0 0 75px;
+    line-height: 1.5;
+    width: 320px;
+    padding-bottom: 35px;
+}
+
+.section06__color--text {
+    font-family: 'Acrom';
+    font-weight: 800;
+    font-size: 13.5px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.section06__text--bold {
+    font-family: 'Acrom';
+    font-weight: 700;
+    font-size: 13.5px;
+    line-height: 1.5;
+    padding-left: 40px;
+    padding-bottom: 15px;
+}
+
+.section06__text {
+    font-family: 'Acrom';
+    font-weight: 400;
+    font-size: 13.5px;
+    line-height: 1.5;
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
+
+.section06__text1 {
+    font-family: 'Acrom';
+    font-weight: 400;
+    font-size: 13.5px;
+    line-height: 1.5;
+    padding-left: 40px;
+    padding-bottom: 0;
+}
+
+.section06__color--wrap1 {
+    background-color: black;
+    width: 85px;
+    margin-top: 15px;
+    margin-bottom: 3px;
+    margin-left: 40px;
+  }
+  
+  .section06__color--wrap2 {
+    background-color: black;
+    width: 130px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+  }
+  
+  .section06__color--wrap3 {
+    background-color: black;
+    width: 185px;
+    margin-top: 20px;
+    margin-bottom: 3px;
+    margin-left: 40px;
+  }
+  
+  .section06__color--wrap4 {
+    background-color: black;
+    width: 175px;
+    margin-bottom: 3px;
+    margin-left: 40px;
+  }
+  
+  .section06__color--wrap5 {
+    background-color: black;
+    width: 170px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+  }
+
+@media all and (min-width: 768px) {
+
+    .section06 {
+        margin-bottom: 80px;
+    }
+
+    .section06__wrap-block {
+        width: 640px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .section06__boot {
+        width: 640px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+    }
+
+    .section06__boot:last-child {
+        margin-bottom: 0;
+    }
+
+    .section06__cover {
+        padding: 0;
+        margin: 0;
+        width: 108px;
+    }
+
+    .section06__cover2 {
+        padding: 0;
+        margin: 0;
+        width: 170px;
+    }
+
+    .section06__wrap1 {
+        width: 200px;
+    }
+
+    .section06__img {
+        display: none;
+    }
+    
+    .section06__img--768px1 {
+        display: block;
+        height: 168px;
+        width: 274px;
+    }
+
+    .section06__img--768px2 {
+        display: block;
+        height: 224px;
+        width: 275px;
+        margin-top: 40px;
+    }
+
+    .section06__img--1200px1 {
+        display: none;
+    }
+    
+    .section06__img--1200px2 {
+        display: none;
+    }    
+
+    .section06__wrap-boot {
+        width: 305px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .section06__title {
+        font-size: 27px;
+        width: 200px;
+        margin: 0;
+        padding-bottom: 25px;
+    }
+    
+    .section06__subtitle {
+        font-size: 9px;
+        margin: 0;
+        width: 150px;
+        padding-bottom: 0;
+        margin-left: 50px;
+        position: relative;
+    }
+
+    .section06__subtitle::before {
+        display: block;
+        content: '';
+        background-color: black;
+        width: 25px;
+        height: 5px;
+        position: absolute;
+        top: 5px;
+        left: -50px;
+    }
+
+    .section06__color--text {
+        font-size: 9px;
+        display: block;
+    }
+
+    .section06__text--bold {
+        font-family: 'Acrom';
+        font-weight: 800;
+        font-size: 8.9px;
+        padding-left: 0;
+    }
+    
+    .section06__text {
+        font-family: 'Acrom';
+        font-weight: 500;
+        font-size: 8.9px;
+        padding-left: 0;
+        padding-bottom: 20px;
+    }
+
+    .section06__text1 {
+        font-family: 'Acrom';
+        font-weight: 500;
+        font-size: 8.9px;
+        padding-left: 0;
+        padding-bottom: 0;
+    }
+
+    .section06__color--wrap1 {
+        width: 55px;
+        margin: 0;
+        margin-bottom: 3px;
+      }
+      
+      .section06__color--wrap2 {
+        width: 108px;
+        margin: 0;
+        margin-bottom: 3px;
+      }
+      
+      .section06__color--wrap3 {
+        width: 60px;
+        margin: 0;
+        margin-bottom: 3px;
+      }
+      
+      .section06__color--wrap4 {
+        width: 70px;
+        margin: 0;
+        margin-bottom: 3px;
+      }
+      
+      .section06__color--wrap5 {
+        width: 108px;
+        margin: 0;
+      }
+}
+
+@media all and (min-width: 1200px) {
+    .section06 {
+        margin-bottom: 100px;
+    }
+
+    .section06__wrap-block {
+        width: 715px;
+    }
+
+    .section06__boot {
+        width: 715px;
+        margin-bottom: 20px;
+    }
+
+    .section06__img--768px1 {
+        display: none;
+    }
+
+    .section06__img--768px2 {
+        display: none;
+    }
+
+    .section06__img--1200px1 {
+        display: block;
+        height: 190px;
+    }
+
+    .section06__img--1200px2 {
+        display: block;
+        height: 251px;
+        margin-top: 100px;
+    }
+
+    .section06__wrap1 {
+        width: 225px;
+    }
+    
+    .section06__title {
+        font-size: 30px;
+        width: 225px;
+        padding-bottom: 15px;
+    }
+    
+    .section06__subtitle {
+        font-size: 10px;
+        width: 155px;
+    }
+
+    .section06__color--text {
+        font-size: 10px;
+    }
+
+    .section06__text--bold {
+        font-size: 10px;
+    }
+    
+    .section06__text {
+        font-size: 10px;
+    }
+
+    .section06__text1 {
+        font-size: 10px;
+    }
+
+    .section06__color--wrap1 {
+        width: 62px;
+      }
+      
+      .section06__color--wrap2 {
+        width: 108px;
+      }
+      
+      .section06__color--wrap3 {
+        width: 70px;
+      }
+      
+      .section06__color--wrap4 {
+        width: 80px;
+      }
+      
+      .section06__color--wrap5 {
+        width: 120px;
+      }
+
+}

@@ -1,0 +1,125 @@
+.section05 {
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+.section05__wrap-block {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.section05__list {
+    list-style-type: square;
+}
+
+.section05__img {
+    display: none;
+}
+
+.section05__title {
+    font-family: 'Acrom';
+    font-weight: 800;
+    font-size: 18px;
+    text-transform: uppercase;
+    width: 230px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+    line-height: 1.5;
+}
+
+.section05__subtitle {
+    font-family: 'Acrom';
+    font-weight: 500;
+    font-size: 13.5px;
+    width: 230px;
+    margin: 0 auto;
+    line-height: 1.5;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.section05__subtitle::before {
+    display: block;
+    content: '';
+    background-color: black;
+    width: 21px;
+    height: 3px;
+    position: absolute;
+    top: 7px;
+    left: -40px;
+}
+
+.section05__item {
+    width: 305px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.section05__item:last-child {
+    margin-bottom: 0;
+}
+
+.section05__text {
+    font-family: 'Acrom';
+    font-weight: 800;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.section05__subtext {
+    font-family: 'Acrom';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+@media all and (min-width: 768px) {
+
+    .section05 {
+        margin-bottom: 100px;
+        background: url('../images/HARD.png') no-repeat center;
+    }
+    
+    .section05__img {
+        display: block;
+        height: 460px;
+        margin: auto 0;
+    }
+
+    .section05__boot {
+        width: 600px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    .section05__item {
+        font-size: 22px;
+    }
+
+    .section05__wrap-block {
+        width: 300px;
+        margin: 0;
+    }
+}
+
+@media all and (min-width: 1200px) {
+
+    .section05 {
+        margin-bottom: 120px;
+    }
+
+    .section05__boot {
+        width: 650px;
+    }
+
+    .section05__wrap-block {
+        width: 350px;
+        margin: 0;
+    }
+
+    .section05__title {
+        font-size: 30px;
+        width: 335px;
+    }
+}

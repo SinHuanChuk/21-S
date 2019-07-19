@@ -1,0 +1,265 @@
+.section04 {
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+.section04__wrap-block {
+    width: 295px;
+    margin: 0 auto;
+}
+
+.section04__img--768px {
+    display: none;
+}
+
+.section04__img--1200px {
+    display: none;
+}
+
+.section04__text {
+    font-family: 'Acrom';
+    font-weight: 800;
+    font-size: 18px;
+    text-transform: uppercase;
+    width: 200px;
+    margin: 0 30px;
+    line-height: 1.5;
+    padding-bottom: 40px;
+}
+
+.section04__subtext {
+    font-family: 'Acrom';
+    font-weight: 500;
+    line-height: 1.5;
+    width: 253px;
+    margin: 0 30px;
+    font-size: 13px;
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.section04__span--color {
+    background-color: black;
+    color: white;
+}
+
+.section04__subtext::before {
+    display: block;
+    content: '';
+    width: 20px;
+    height: 4px;
+    background-color: black;
+    position: absolute;
+    top: 6px;
+    left: -40px;
+}
+
+.section04__article {
+    width: 290px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    padding-left: 90px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.section04__wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 55px;
+    margin: 18px 0 0 19px;
+}
+
+.section04_img {
+    padding-bottom: 10px;
+}
+
+.section04__text--information {
+    font-size: 5.5px;
+    font-family: 'Acrom';
+    font-weight: 500;
+    line-height: 1.5;
+    padding-top: 18px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+}
+
+.section04__name {
+    font-family: 'Acrom';
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.5;
+    font-size: 5.3px;
+    padding-top: 10px;
+}
+
+.section04__block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section04__number {
+    padding: 7px 0 0 15px;
+}
+
+.section04__button {
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border: 1px solid #3f4144;
+}
+
+.section04__wrapper {
+    display: flex;
+    margin-right: 3px;
+}
+
+.section04__position {
+    margin: 1px 0 2px 3px;
+}
+
+@media all and (min-width: 768px) {
+
+    .section04 {
+        margin-bottom: 90px;
+    }
+
+    .section04__wrap-block {
+        width: 640px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .section04__boot {
+        width: 170px;
+    }
+    
+    .section04__img--768px {
+        display: block;
+    }
+
+    .section04__img--1200px {
+        display: none;
+    }
+
+    .section04__img {
+        display: none;
+    }
+
+    .section04__text {
+        font-size: 27px;
+        width: 210px;
+        margin: 0;
+        line-height: 1.5;
+        padding-bottom: 40px;
+    }
+    
+    .section04__subtext {
+        line-height: 1.7;
+        width: 135px;
+        margin: 0 0 0 41px;
+        font-size: 9px;
+    }
+
+    .section04__subtext::before {
+        width: 25px;
+        height: 4px;
+        top: 6px;
+        left: -40px;
+    }
+
+    .section04__article {
+        width: 420px;
+        padding-left: 135px;
+    }
+
+    .section04__name {
+        font-size: 8px;
+        padding-top: 15px;
+    }
+
+    .section04__wrap {
+        width: 85px;
+        margin: 28px 0 0 28px;
+    }
+
+    .section04__text--information {
+        font-size: 8px;
+        line-height: 1.7;
+        padding-top: 28px;
+        padding-right: 45px;
+        padding-bottom: 28px;
+    }
+
+    .section04__button {
+        width: 20px;
+        height: 20px;
+    }
+
+    .section04__position {
+        margin: 1px 0 3px 6px;
+    }
+
+    .section04__wrapper {
+        margin-right: 0;
+    }
+}
+
+@media all and (min-width: 1200px) {
+
+    .section04 {
+        margin-bottom: 90px;
+    }
+
+    .section04__img--768px {
+        display: none;
+    }
+
+    .section04__img--1200px {
+        display: block;
+    }
+
+    .section04__wrap-block {
+        width: 715px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .section04__boot {
+        width: 175px;
+    }
+
+    .section04__text {
+        font-size: 30px;
+        width: 210px;
+    }
+    
+    .section04__subtext {
+        font-family: 'Acrom';
+        font-weight: 800;
+        font-size: 10px;
+    }
+
+    .section04__article {
+        width: 470px;
+        padding-left: 150px;
+    }
+
+    .section04__name {
+        font-size: 9px;
+        padding-top: 20px;
+    }
+
+    .section04__wrap {
+        width: 90px;
+        margin: 28px 0 0 30px;
+    }
+
+    .section04__text--information {
+        font-size: 9px;
+        line-height: 1.7;
+        padding-top: 28px;
+        padding-right: 45px;
+        padding-bottom: 28px;
+    }
+}

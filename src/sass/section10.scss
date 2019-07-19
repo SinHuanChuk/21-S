@@ -1,0 +1,352 @@
+.section10 {
+    width: 100%;
+    margin: 0 auto 75px;
+}
+
+.section10__wrap-block {
+    width: 450px;
+    margin: 0 auto;
+}
+
+.section10__img {
+    margin: 0 auto;
+}
+
+.section10__img--768px {
+    display: none;
+}
+
+.section10__text--info768px {
+    display: none;
+}
+
+.section10__icon--768px {
+    display: none;
+}
+
+.section10__img--1200px {
+    display: none;
+}
+
+.section10__title {
+    font-family: 'Acrom';
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.5;
+    font-size: 18px;
+    width: 376px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+
+.section10__subtitle {
+    font-family: 'Acrom';
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.5;
+    font-size: 13.5px;
+    width: 245px;
+    margin: 0 0 0 75px;
+    padding-bottom: 15px;
+}
+
+.section10__text {
+    font-family: 'Acrom';
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 13.5px;
+    width: 310px;
+    margin-left: 75px;
+    padding-bottom: 40px;
+}
+
+.section10__text--info {
+    font-family: 'Acrom';
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 13.5px;
+    width: 265px;
+    margin-left: 105px;
+    padding-bottom: 40px;
+    padding-top: 60px;
+}
+
+.section10__list {
+    list-style: none;
+}
+
+.section10__item {
+    width: 295px;
+    margin: 0 auto 40px;
+    position: relative;
+}
+
+.section10__item:nth-child(n+2) {
+    padding-right: 70px;
+}
+
+.section10__item:last-child {
+    margin-bottom: 0;
+}
+
+.section10__item--title1 {
+    display: block;
+    font-family: 'Acrom';
+    font-weight: 500;
+    font-size: 12.35px;
+    background-color: black;
+    color: white;
+    width: 80px;
+    text-align: center;
+}
+
+.section10__icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.section10__caption1 {
+    font-family: 'Acrom';
+    font-weight: 800;
+    font-size: 13.5px;
+    text-transform: uppercase;
+    width: 200px;
+    line-height: 1.5;
+    padding-bottom: 10px;
+}
+
+.section10__caption {
+    font-family: 'Acrom';
+    font-weight: 800;
+    font-size: 13.5px;
+    text-transform: uppercase;
+    width: 200px;
+    line-height: 1.5;
+    padding-bottom: 10px;
+}
+
+.section10__color--subtitle {
+    font-family: 'Acrom';
+    font-weight: 800;
+    font-size: 13.5px;
+    padding-bottom: 10px;
+}
+
+.section10__word {
+    font-family: 'Acrom';
+    font-weight: 400;
+    font-size: 13.5px;
+    line-height: 1.4;
+}
+
+@media all and (min-width: 768px) {
+
+    .section10 {
+        margin-bottom: 90px;
+    }
+    
+    .section10__wrap-block {
+        width: 640px;
+    }
+    
+    .section10__img {
+        display: none;
+    }
+
+    .section10__img--768px {
+        display: block;
+        margin-top: 45px;
+    }
+
+    .section10__icon--768px {
+        display: block;
+        position: absolute;
+        top: 25px;
+        right: 0;
+    }
+
+    .section10__text--info {
+        display: none;
+    }
+
+    .section10__icon {
+        display: none;
+    }
+
+    .section10__img--1200px {
+        display: none;
+    }
+
+    .section10__wrap {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 60px;
+    }
+
+    .section10__wrapping {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .section10__cover {
+        width: 230px;
+    }
+
+    .section10__text--info768px {
+        display: block;
+        font-family: 'Acrom';
+        font-weight: 800;
+        width: 155px;
+        font-size: 9px;
+        float: right;
+        position: relative;
+    }
+
+    .section10__text--info768px::before {
+        display: block;
+        content: '';
+        background-color: black;
+        width: 30px;
+        height: 4px;
+        position: absolute;
+        top: 5px;
+        left: -70px;
+    }
+
+    .section10__boot {
+        width: 350px;
+    }
+
+    .section10__title {
+        width: 230px;
+        font-size: 27px;
+    }
+
+    .section10__subtitle {
+        font-weight: 800;
+        margin: 0;
+        font-size: 9px;
+        width: 90px;
+        padding: 0;
+    }
+
+    .section10__text {
+        font-weight: 500;
+        margin: 0;
+        width: 120px;
+        font-size: 8px;
+        padding: 0;
+    }
+
+    .section10__list {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .section10__item {
+        width: 128px;
+        margin: 0;
+        position: relative;
+    }
+    
+    .section10__item:nth-child(n+2) {
+        padding-right: 40px;
+    }
+
+    .section10__color--subtitle {
+        font-size: 8px;
+        padding: 0;
+    }
+
+    .section10__caption1 {
+        font-size: 9px;
+        width: 125px;
+        padding-top: 15px;
+    }
+
+    .section10__caption {
+        font-size: 9px;
+        width: 55px;
+        padding-top: 15px;
+    }
+
+    .section10__word {
+        font-size: 8px;
+    }
+}
+
+@media all and (min-width: 1200px) {
+
+    .section10 {
+        margin-bottom: 105px;
+    }
+    
+    .section10__wrap-block {
+        width: 715px;
+    }
+
+    .section10__img--768px {
+        display: none;
+        margin-top: 0;
+    }
+
+    .section10__img--1200px {
+        display: block;
+        margin-top: 53px;
+    }
+
+    .section10__wrap {
+        margin-bottom: 75px;
+    }
+
+    .section10__boot {
+        width: 390px;
+    }
+
+    .section10__cover {
+        width: 255px;
+    }
+
+    .section10__title {
+        width: 255px;
+        font-size: 30px;
+    }
+
+    .section10__text--info768px {
+        font-size: 10px;
+        width: 175px;
+    }
+
+    .section10__text--info768px::before {
+        right: -75px;
+    }
+
+    .section10__subtitle {
+        font-size: 10px;
+        width: 105px;
+    }
+
+    .section10__text {
+        font-size: 8.75px;
+        width: 135px;
+    }
+
+    .section10__item {
+        width: 150px;
+    }
+
+    .section10__word {
+        font-size: 8.75px;
+    }
+
+    .section10__caption1 {
+        width: 135px;
+        font-size: 10px;
+    }
+
+    .section10__caption {
+        width: 65px;
+        font-size: 10px;
+    }
+}
